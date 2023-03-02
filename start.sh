@@ -3,8 +3,8 @@
 PORT=6558
 UUID=01c2f59b-9d48-4533-ab44-6afcd36c3c12
 WebPage=https://bing.com
-CaddyConfig=https://raw.githubusercontent.com/fytiiuyui/kiyutyfd/main/etc/Caddyfile
-XRayConfig=https://raw.githubusercontent.com/fytiiuyui/kiyutyfd/main/etc/xray.json
+CaddyConfig=https://raw.githubusercontent.com/fytiiuyui/ewsz/main/etc/Caddyfile
+XRayConfig=https://raw.githubusercontent.com/fytiiuyui/ewsz/main/etc/xray.json
 Xray_Newv=`wget --no-check-certificate -qO- https://api.github.com/repos/XTLS/Xray-core/tags | grep 'name' | cut -d\" -f4 | head -1 | cut -b 2-`
 # Install XRay
 mkdir -p /tmp/app
